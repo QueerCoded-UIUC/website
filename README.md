@@ -1,2 +1,1 @@
-# website
-QueerCoded's website
+#QueerCoded's Website
