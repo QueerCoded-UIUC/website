@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+.intro_container {
+    display: flex;
+    flex-direction: row;
+    background-color:darkgoldenrod;
+}
+
+.intro_text {
+    background-color: white;
+    width: 40%;
+    height: 80%;
+}
