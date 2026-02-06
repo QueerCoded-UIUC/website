@@ -1,9 +1,7 @@
+"use client";
+
+import Cal from "@/components/Calendar";
+
 export default function Calendar() {
-  return (
-    <div>
-      <main>
-        
-      </main>
-    </div>
-  );
+  return <Cal />;
 }
