@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import "./globals.css";
+import { Press_Start_2P } from "next/font/google";
 
 export default function RootLayout({
   children,
@@ -18,3 +19,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const pressStart = Press_Start_2P({
+  weight: "400",
+  subsets: ["latin"],
+});
