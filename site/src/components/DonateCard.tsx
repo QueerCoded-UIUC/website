@@ -5,11 +5,11 @@ export default function DonateCard() {
     <section className={styles.donateSection}>
       <div className={styles.content}>
         <div className={styles.text}>
-          <h2 >Support QueerCoded</h2>
+          <h2 >QueerCoded_</h2>
         </div>
 
         <a href="/donate" className={styles.donateButton}>
-          Donate
+          DONATE
         </a>
       </div>
     </section>
