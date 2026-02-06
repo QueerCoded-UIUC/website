@@ -8,23 +8,25 @@
     width: 100%;
     min-height: 90vh;
     box-sizing: border-box;
+    position: relative; 
+    overflow: visible;
 }
 
 /* Left text card */
 .parentDiv > div:first-child {
   background-color: var(--q-white);
-  padding: 28px 32px;
+  padding: 28px 50px;
   border-radius: 12px;
-
   max-width: 520px;
-
-  box-shadow: 0 6px 0 var(--q-black);;
+  box-shadow: 0 6px 0 var(--q-black);
+  position: relative; 
+  z-index: 1;
 }
 
 /* Title */
 .parentDiv h3 {
   margin: 0 0 12px 0;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--q-black);
 }
@@ -32,8 +34,8 @@
 /* Paragraph */
 .parentDiv p {
   margin: 0;
-  line-height: 1.5;
-  font-size: 1rem;
+  line-height: 1.3;
+  font-size: 1.5rem;
   color: var(--q-black);
 }
 
@@ -42,11 +44,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative; 
+  z-index: 2;
 }
 
 /* Butterfly image */
 .parentDiv img {
-  width: 200px;
+  width: clamp(360px, 60vw, 820px);
   height: auto;
   image-rendering: pixelated; /* keeps pixel-art crisp */
+  /* transform: translateX(-70px);    */ /*add back if want butterfly + text box to overlap*/
+  filter: drop-shadow(6px 6px 0 var(--q-white));
 }
