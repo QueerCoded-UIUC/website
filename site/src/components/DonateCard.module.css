@@ -1,0 +1,39 @@
+.donateSection {
+  width: 100%;
+  background-color: var(--q-blue);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.donateButton {
+  background-color: var(--q-yellow);
+  color: var(--q-black);
+  text-decoration: none;
+  font-weight: 600;
+
+  padding: 0.75rem 1.75rem;
+  border-radius: 12px;
+
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.donateButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.text h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
