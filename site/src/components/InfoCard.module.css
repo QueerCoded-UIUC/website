@@ -1,0 +1,52 @@
+.parentDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: var(--q-yellow);
+    padding: 30px 38px;
+    width: 100%;
+    min-height: 90vh;
+    box-sizing: border-box;
+}
+
+/* Left text card */
+.parentDiv > div:first-child {
+  background-color: var(--q-white);
+  padding: 28px 32px;
+  border-radius: 12px;
+
+  max-width: 520px;
+
+  box-shadow: 0 6px 0 var(--q-black);;
+}
+
+/* Title */
+.parentDiv h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--q-black);
+}
+
+/* Paragraph */
+.parentDiv p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: var(--q-black);
+}
+
+/* Right image container */
+.parentDiv > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Butterfly image */
+.parentDiv img {
+  width: 200px;
+  height: auto;
+  image-rendering: pixelated; /* keeps pixel-art crisp */
+}
